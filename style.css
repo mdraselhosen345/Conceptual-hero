@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.container{
+    max-width: 1280px;
+    margin:auto
+}
+
+.panda-btn{
+        border-radius: 6px;
+        background: linear-gradient(#FF589B , #ff136f);
+         padding: 15px 35px;
+         border: none;
+         font-weight: 600;
+         font-size: 14px;
+         color:white;
+         font-weight: 500;
+}
+.common-section-title{
+    font-weight: 600;
+    font-size: 36px;
+
+
+}
+/* navber start */
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+
+}
+.Search-parent{
+    position: relative;
+    color: #bababa;
+}
+.Search-parent input{
+    background-color: rgb(241, 241, 241);
+    border-radius: 66px;
+    padding: 15px 30px;
+    width: 500px;
+    border: none;
+
+}
+.Search-parent i{
+    font-size: 25px;
+    position: absolute;
+    top: 12px;
+    right: 20px;
+    font-weight: 600px;
+    
+    
+}
+.nav-items{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+
+}
+.nav-items li a{
+     text-decoration: none;
+     color:#707070;
+     font-weight: 500px;
+     font-size: 16px;
+}
+/* navber end */
+
+/* banner start */
+.banner{
+   background: rgb(254, 234, 233);
+   display: flex;
+   justify-content: space-between;
+   gap:5px;
+   align-items: center;
+   padding: 131px 157px 10px 157px;
+}
+.banner h2{
+    color: rgb(31,31,31);
+    font-weight: 700;
+    font-size: 52px;
+   
+
+}
+.banner p{
+   color:#4c4c4c;
+   max-width: 500px;
+}
+.banner img{
+    width: 402px;
+    height: 378px;
+}
+.banner .price{
+  color: #ff136f;
+  font-size: 52px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0;
+}
+.category-card{
+    display: flex;
+    justify-content: space-between;
+    gap:4px;
+    align-items: center;
+    border-radius: 10px;
+    padding:28px; 
+    width: 359px;
+    height: 120px; 
+
+}
+.category-card img{
+     width: 152px;
+    height: 107px; 
+}
+.category-card h2{
+    
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+.categories-card-container{
+    display: flex;
+    gap:26px;
+    justify-content: center;
+    
+    
+}
+.category-card-1{
+      background:linear-gradient(#FF9C35, #FF9C35);
+}
+.category-card-2{
+    background: linear-gradient(#FF589B, #FF136F);
+
+}
+.category-card-3{
+    background: linear-gradient(#4289FF, #3F07F8);
+}
